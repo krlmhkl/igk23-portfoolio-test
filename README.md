@@ -1,2 +1,7 @@
-# igk23-portfoolio-test
+# IGK23 Portfoolio Test
  
+## Testi eesmärgid
+
+- HTML õpetamine
+- CSS õpetamine
+- nalja tegemine

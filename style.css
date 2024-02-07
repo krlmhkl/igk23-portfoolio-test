@@ -14,7 +14,7 @@ body {
 #navbar ul {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
     font-weight: 600;
 }
 
