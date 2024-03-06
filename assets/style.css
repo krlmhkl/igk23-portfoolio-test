@@ -63,3 +63,151 @@ li {
 h1 {
     color: tomato;
 }
+
+#news {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-big {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.four-small {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: tomato;
+}
+
+.news-box-big {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 576px;
+}
+
+.news-box-medium {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 276px;
+}
+
+.news-image-big {
+    width: 576px;
+}
+
+.news-image-medium {
+    width: 276px;
+}
+
+.news-title-big {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.news-title-medium {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1248px) {
+    #navbar {
+        width: 100vw;
+    }
+    
+    .news-box-big {
+        width: 444px;
+    }
+
+    .news-box-medium {
+        width: 210px;
+    }
+
+    .news-image-big {
+        width: 444px;
+    }
+
+    .news-image-medium {
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #nav-links {
+        display: none;
+    }
+
+    #nav-links-mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    #navbar-buttons {
+        display: none;
+    }
+
+    .two-big {
+        flex-direction: column;
+    }
+
+    .four-small {
+        flex-direction: column;
+    }   
+
+    .news-box-big {
+        width: 600px;
+    }
+
+    .news-box-medium {
+        width: 600px;
+    }
+
+    .news-image-big {
+        width: 600px;
+    }
+
+    .news-image-medium {
+        width: 600px;
+    }
+
+
+    .news-title-medium {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .news-box-big {
+        width: 100vw;
+    }
+
+    .news-box-medium {
+        width: 100vw;
+    }
+
+    .news-image-big {
+        width: 100vw;
+    }
+
+    .news-image-medium {
+        width: 100vw;
+    }
+    
+    .news-title-big {
+        font-size: 19px;
+    }
+
+    .news-title-medium {
+        font-size: 19px;
+    }
+}
